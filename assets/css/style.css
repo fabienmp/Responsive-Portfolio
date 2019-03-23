@@ -115,7 +115,6 @@ table td {
 
 .imgHolder {
     position: relative;
-    transition: 2s;
 }
 
 .imgHolder:hover {
