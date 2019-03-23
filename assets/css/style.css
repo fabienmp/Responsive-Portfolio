@@ -128,7 +128,6 @@ table td {
     bottom: 20px;
     color: white;
     background-color: #4aaaa5;
-    transition: all 2s linear;
 }
 
 /* CONTACT FORM */
@@ -210,30 +209,57 @@ body {
 /* Large devices */
 @media (max-width: 980px) {
     .page_container {
-        width: 920px;
+        width: 800px;
         margin: 20px auto;
         background-color: red;
         border: solid 1px #dddddd;
     }
 
     #header_center {
-        width: 920px;
+        width: 800px;
         margin: 0px auto;
+    }
+
+    img {
+        width: 165px;
+    }
+
+    .imgHolder span {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        background-color: #4aaaa5;
     }
 }
 
 /* Medium devices */
 @media (max-width: 768px) {
     .page_container {
-        width: 728px;
+        width: 600px;
         margin: 20px auto;
         background-color: green;
         border: solid 1px #dddddd;
     }
 
     #header_center {
-        width: 728px;
+        width: 600px;
         margin: 0px auto;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    .imgHolder span {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        background-color: #4aaaa5;
+        font-size: 0.5em;
     }
 
 }
@@ -242,14 +268,14 @@ body {
 @media (max-width: 640px) {
 
     .page_container {
-        width: 600px;
+        width: 500px;
         margin: 20px auto;
         background-color: blue;
         border: solid 1px #dddddd;
     }
 
     #header_center {
-        width: 600px;
+        width: 500px;
         margin: 0px auto;
     }
 
@@ -274,7 +300,23 @@ body {
     }
 
     img {
-        width: 540px;
+        max-width: 440px;
+        width: 440px;
+    }
+
+    .imgHolder span {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        background-color: #4aaaa5;
+        font-size: 1em;
+    }
+
+    h2
+    {
+        font-size: medium;
     }
 
 }
