@@ -211,7 +211,7 @@ body {
     .page_container {
         width: 800px;
         margin: 20px auto;
-        background-color: red;
+        background-color: #fff;
         border: solid 1px #dddddd;
     }
 
@@ -231,6 +231,7 @@ body {
         bottom: 20px;
         color: white;
         background-color: #4aaaa5;
+        font-size: 0.6em;
     }
 }
 
@@ -239,7 +240,7 @@ body {
     .page_container {
         width: 600px;
         margin: 20px auto;
-        background-color: green;
+        background-color: #fff;
         border: solid 1px #dddddd;
     }
 
@@ -249,7 +250,23 @@ body {
     }
 
     img {
-        width: 150px;
+        width: 240px;
+    }
+    
+    table tr {
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    table td {
+        display: inline-block;
+        font-size: 1.5em;
+    }
+
+    table td::before {
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
     }
 
     .imgHolder span {
@@ -270,7 +287,7 @@ body {
     .page_container {
         width: 500px;
         margin: 20px auto;
-        background-color: blue;
+        background-color: #fff;
         border: solid 1px #dddddd;
     }
 
