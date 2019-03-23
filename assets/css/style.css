@@ -342,14 +342,14 @@ body {
 @media (max-width: 640px) {
 
     .page_container {
-        width: 320px;
+        width: 300px;
         margin: 20px auto;
         background-color: #fff;
         border: solid 1px #dddddd;
     }
 
     #header_center {
-        width: 320px;
+        width: 300px;
         margin: 0px auto;
     }
 
@@ -374,8 +374,13 @@ body {
     }
 
     img {
-        max-width: 250px;
-        width: 250px;
+        max-width: 240px;
+        width: 240px;
+    }
+
+    .imgHolder
+    {
+        float: left;
     }
 
     .imgHolder span {
@@ -386,6 +391,7 @@ body {
         color: white;
         background-color: #4aaaa5;
         font-size: 1em;
+      
     }
 
     h2 {
