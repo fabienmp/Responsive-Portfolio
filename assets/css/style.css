@@ -396,8 +396,7 @@ body {
         bottom: 20px;
         color: white;
         background-color: #4aaaa5;
-        font-size: 1em;
-      
+        float: left;
     }
 
     h2 {
