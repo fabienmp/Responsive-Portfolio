@@ -16,11 +16,21 @@
                 <h2 id="header_name">
                     Fabien Mansoubi
                 </h2>
-                <ul>
+                <ul id="ul_menu">
                     <li><a href="index.html">About</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li style="border-right: none;"><a href="contact.html">Contact</a></li>
                 </ul>
+                <div class="dropdown">
+                    <button class="dropbtn">About
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="index.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
             </div>
         </header>
         <div class="page_container clearfix">
@@ -55,7 +65,7 @@
             metaTag.name = "viewport"
             metaTag.content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
             document.getElementsByTagName('head')[0].appendChild(metaTag);
-        </script>--> 
+        </script>-->
     </div>
     <footer>
         <span class="footer_label">Copyright @ Sticky Footer</span>
